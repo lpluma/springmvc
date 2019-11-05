@@ -9,6 +9,7 @@ public class HelloController {
     @RequestMapping
     public String hello(){
         System.out.println("springmvc");
+        System.out.println("may");
         return  "index";
     }
 }
